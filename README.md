@@ -93,6 +93,19 @@ Client
 
 ---
 
+## Diagrams
+
+### Scheme 1 — Basic (no VPN)
+![Scheme 1 — Basic Matrix deployment without VPN](diagrams/scheme-1-basic.svg)
+
+### Scheme 2 — Xray in front on :443
+![Scheme 2 — Xray on port 443, Caddy on port 8443](diagrams/scheme-2-xray-front.svg)
+
+### Scheme 3 — Caddy in front, Xray on a subpath
+![Scheme 3 — Caddy on port 443, Xray on internal subpath](diagrams/scheme-3-caddy-front.svg)
+
+---
+
 ## Repository contents
 
 ```
@@ -101,7 +114,7 @@ Client
 │   ├── scheme-1-basic.svg          # Caddy only, no VPN
 │   ├── scheme-2-xray-front.svg     # Xray on :443, Caddy on :8443
 │   └── scheme-3-caddy-front.svg    # Caddy on :443, Xray on subpath
-├── README.md
+└── README.md
 ```
 
 Config file examples (sanitised) available on request.
