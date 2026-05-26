@@ -1,5 +1,9 @@
 # infra-reference-architecture
 
+![Docker](https://img.shields.io/badge/Docker-compose-2496ED?logo=docker&logoColor=white)
+![Caddy](https://img.shields.io/badge/Caddy-2.x-00ADD8?logo=caddy&logoColor=white)
+![Matrix](https://img.shields.io/badge/Matrix-Synapse-000000?logo=matrix&logoColor=white)
+
 Reference deployment architectures for privacy-focused server infrastructure.  
 Covers Matrix/Synapse messenger stacks combined with VPN (Xray/WireGuard) — three deployment variants depending on threat model and requirements.
 
